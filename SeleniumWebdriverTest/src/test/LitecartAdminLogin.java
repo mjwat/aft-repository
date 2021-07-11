@@ -9,7 +9,7 @@ public class LitecartAdminLogin extends Base {
 	@Test
 	public void successLoginToAdmin() {
 		String user = "admin";
-		String passw = "3admin";
+		String passw = "admin";
 
 		driver.get("http://litecart.loc/admin/");
 		

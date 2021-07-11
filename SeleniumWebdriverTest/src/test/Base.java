@@ -15,12 +15,13 @@ public class Base {
 
     @Before
     public void start() {   	
-    	String projectPath = System.getProperty("user.dir");	
+    	String projectPath = System.getProperty("user.dir");
+    	
 		System.setProperty("webdriver.gecko.driver", projectPath+"/drivers/geckodriver");
-      driver = new FirefoxDriver();
+		driver = new FirefoxDriver();
     	
 //		System.setProperty("webdriver.chrome.driver", projectPath+"/drivers/chromedriver");
-//        driver = new ChromeDriver();
+//		driver = new ChromeDriver();
         
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
