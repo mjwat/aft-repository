@@ -1,9 +1,11 @@
-package test;
+package google;
 
-import org.junit.*;
+import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+
+import base.Base;
 
 import static org.openqa.selenium.support.ui.ExpectedConditions.titleIs;
 
